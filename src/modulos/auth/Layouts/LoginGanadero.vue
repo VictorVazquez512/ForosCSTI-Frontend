@@ -156,13 +156,9 @@
                         required
                       ></v-text-field>
                     </v-col>
-                    <v-col cols="12" md="6">
+                    <v-col cols="12" md="12">
                       <v-text-field 
-                        filled label="Email" required></v-text-field>
-                    </v-col>
-                    <v-col cols="12" md="6">
-                      <v-text-field 
-                        filled label="Numero de teléfono" required></v-text-field>
+                        filled label="Username" required></v-text-field>
                     </v-col>
                     <v-col cols="12">
                       <v-text-field 
@@ -173,11 +169,11 @@
                       ></v-text-field>
                     </v-col>
                     <v-col cols="12" sm="6">
-                      <v-select
-                        :items="['0-17', '18-29', '30-54', '54+']"
+                      <v-text-field 
                         label="Edad"
+                        type="number"
                         required
-                      ></v-select>
+                      ></v-text-field>
                     </v-col>
                     <v-col cols="12" sm="6">
                       <v-autocomplete
